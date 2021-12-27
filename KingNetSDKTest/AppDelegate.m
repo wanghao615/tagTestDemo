@@ -30,18 +30,10 @@
     //初始化
     [[TMOpenShareSDK shareTMOpenShareSDK] SG_ProjectInit: application launchOptions:launchOptions];
     [[TMOpenShareSDK shareTMOpenShareSDK] setLogEnabled:YES];
-    
-    [self akdjfaklakjsdj];
-    [self asdfnasjkldadfsfas];
+  
     return YES;
 }
 
-- (void)akdjfaklakjsdj{
-    NSLog(@"========");
-}
-- (void)asdfnasjkldadfsfas{
-    NSLog(@"========");
-}
 
 
 - (BOOL)application:(UIApplication *)application

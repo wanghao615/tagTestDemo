@@ -44,9 +44,6 @@
     });
 }
 
-- (void)akdjfaklakjsdj{
-    NSLog(@"========");
-}
 
 - (void)backBtnClicked{
     [self dismissViewControllerAnimated:NO completion:nil];
