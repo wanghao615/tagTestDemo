@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2080C2BB25E3A51F00EC0C44 /* AdjustSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2080C2B925E3A51600EC0C44 /* AdjustSdk.framework */; };
+		2080C2BC25E3A51F00EC0C44 /* AdjustSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2080C2B925E3A51600EC0C44 /* AdjustSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2080C2CD25ECC6A800EC0C44 /* AdjustSigSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2080C2CB25ECC69E00EC0C44 /* AdjustSigSdk.framework */; };
+		2080C2CE25ECC6A800EC0C44 /* AdjustSigSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2080C2CB25ECC69E00EC0C44 /* AdjustSigSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		882522832230BEFA002A6CDB /* KN_GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882522812230BEF9002A6CDB /* KN_GameViewController.m */; };
+		882522842230BEFA002A6CDB /* KN_GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882522822230BEF9002A6CDB /* KN_GameViewController.xib */; };
+		88269A582357030D004B632E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88269A56235702FE004B632E /* FBSDKLoginKit.framework */; };
+		88269A592357030D004B632E /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88269A56235702FE004B632E /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		88269A5C23570333004B632E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88269A5A2357032F004B632E /* FBSDKCoreKit.framework */; };
+		88269A5D23570333004B632E /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88269A5A2357032F004B632E /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8831A4E42721537200B4A58E /* MysticalPowerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8831A4E22721536600B4A58E /* MysticalPowerSDK.framework */; };
+		8831A4E52721537200B4A58E /* MysticalPowerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8831A4E22721536600B4A58E /* MysticalPowerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		883D7D232354A45C000EBB1A /* DAConf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 883D7D1F2354A45C000EBB1A /* DAConf.plist */; };
+		883D7D242354A45C000EBB1A /* TSPhoneNumAreaCodeEN.json in Resources */ = {isa = PBXBuildFile; fileRef = 883D7D202354A45C000EBB1A /* TSPhoneNumAreaCodeEN.json */; };
+		883D7D252354A45C000EBB1A /* TSPhoneNumAreaCodeZH.json in Resources */ = {isa = PBXBuildFile; fileRef = 883D7D212354A45C000EBB1A /* TSPhoneNumAreaCodeZH.json */; };
+		8857F4B5271D7F4800E13E44 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8857F4B4271D7F4800E13E44 /* AdSupport.framework */; };
+		8863ABCE24234DEC0018202D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8863ABCD24234DEC0018202D /* GoogleService-Info.plist */; };
+		8863ABD024236FCA0018202D /* CustomConfigurator.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8863ABCF24236FCA0018202D /* CustomConfigurator.plist */; };
+		8863AC982424B5340018202D /* KOSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8863AC972424B5320018202D /* KOSDKResource.bundle */; };
+		88897C4023851A5000F5BBD5 /* internationalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88897C3F23851A5000F5BBD5 /* internationalization.bundle */; };
+		88ACA985221BCECD002FE598 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ACA984221BCECD002FE598 /* AppDelegate.m */; };
+		88ACA98D221BCED0002FE598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ACA98C221BCED0002FE598 /* Assets.xcassets */; };
+		88ACA993221BCED0002FE598 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ACA992221BCED0002FE598 /* main.m */; };
+		88ACA99D221BCED0002FE598 /* KingNetSDKTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ACA99C221BCED0002FE598 /* KingNetSDKTestTests.m */; };
+		88ACA9A8221BCED0002FE598 /* KingNetSDKTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ACA9A7221BCED0002FE598 /* KingNetSDKTestUITests.m */; };
+		88ACABD3221F8F5C002FE598 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88ACABD2221F8F5C002FE598 /* GameKit.framework */; };
+		88B22D9B23CD8D360026BAB8 /* LoginParaConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88B22D9A23CD8D360026BAB8 /* LoginParaConfig.plist */; };
+		88C5444A2775CBBF00CFC8DC /* Wdfalskjaakdska.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C544492775CBBF00CFC8DC /* Wdfalskjaakdska.m */; };
+		88EA5EE1223A2BFB00EE8E27 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EA5EE0223A2BFB00EE8E27 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		88EF496B22363D080083409D /* IAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EF496A22363D080083409D /* IAPViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88ACA999221BCED0002FE598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88ACA978221BCECD002FE598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88ACA97F221BCECD002FE598;
+			remoteInfo = KingNetSDKTest;
+		};
+		88ACA9A4221BCED0002FE598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88ACA978221BCECD002FE598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88ACA97F221BCECD002FE598;
+			remoteInfo = KingNetSDKTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8827954D2331CE45005334A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2080C2BC25E3A51F00EC0C44 /* AdjustSdk.framework in Embed Frameworks */,
+				88269A5D23570333004B632E /* FBSDKCoreKit.framework in Embed Frameworks */,
+				88269A592357030D004B632E /* FBSDKLoginKit.framework in Embed Frameworks */,
+				2080C2CE25ECC6A800EC0C44 /* AdjustSigSdk.framework in Embed Frameworks */,
+				8831A4E52721537200B4A58E /* MysticalPowerSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2080C2B925E3A51600EC0C44 /* AdjustSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdjustSdk.framework; sourceTree = "<group>"; };
+		2080C2CB25ECC69E00EC0C44 /* AdjustSigSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdjustSigSdk.framework; sourceTree = "<group>"; };
+		88252218222D02E6002A6CDB /* KingNetSDKTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KingNetSDKTest.entitlements; sourceTree = "<group>"; };
+		882522802230BEF9002A6CDB /* KN_GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KN_GameViewController.h; sourceTree = "<group>"; };
+		882522812230BEF9002A6CDB /* KN_GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KN_GameViewController.m; sourceTree = "<group>"; };
+		882522822230BEF9002A6CDB /* KN_GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KN_GameViewController.xib; sourceTree = "<group>"; };
+		88269A56235702FE004B632E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		88269A5A2357032F004B632E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		8831A4E22721536600B4A58E /* MysticalPowerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MysticalPowerSDK.framework; sourceTree = "<group>"; };
+		883D7D1F2354A45C000EBB1A /* DAConf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DAConf.plist; sourceTree = "<group>"; };
+		883D7D202354A45C000EBB1A /* TSPhoneNumAreaCodeEN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TSPhoneNumAreaCodeEN.json; sourceTree = "<group>"; };
+		883D7D212354A45C000EBB1A /* TSPhoneNumAreaCodeZH.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TSPhoneNumAreaCodeZH.json; sourceTree = "<group>"; };
+		8857F4B4271D7F4800E13E44 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8863ABCD24234DEC0018202D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8863ABCF24236FCA0018202D /* CustomConfigurator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CustomConfigurator.plist; sourceTree = "<group>"; };
+		8863AC972424B5320018202D /* KOSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KOSDKResource.bundle; sourceTree = "<group>"; };
+		88897C3F23851A5000F5BBD5 /* internationalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = internationalization.bundle; sourceTree = "<group>"; };
+		88ACA980221BCECD002FE598 /* KingNetSDKTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingNetSDKTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ACA983221BCECD002FE598 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88ACA984221BCECD002FE598 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88ACA98C221BCED0002FE598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88ACA991221BCED0002FE598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88ACA992221BCED0002FE598 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88ACA998221BCED0002FE598 /* KingNetSDKTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingNetSDKTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ACA99C221BCED0002FE598 /* KingNetSDKTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KingNetSDKTestTests.m; sourceTree = "<group>"; };
+		88ACA99E221BCED0002FE598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88ACA9A3221BCED0002FE598 /* KingNetSDKTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingNetSDKTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ACA9A7221BCED0002FE598 /* KingNetSDKTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KingNetSDKTestUITests.m; sourceTree = "<group>"; };
+		88ACA9A9221BCED0002FE598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88ACABD2221F8F5C002FE598 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		88B22D9A23CD8D360026BAB8 /* LoginParaConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LoginParaConfig.plist; sourceTree = "<group>"; };
+		88C544482775CBBF00CFC8DC /* Wdfalskjaakdska.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wdfalskjaakdska.h; sourceTree = "<group>"; };
+		88C544492775CBBF00CFC8DC /* Wdfalskjaakdska.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wdfalskjaakdska.m; sourceTree = "<group>"; };
+		88EA5EE0223A2BFB00EE8E27 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		88EF496922363D080083409D /* IAPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAPViewController.h; sourceTree = "<group>"; };
+		88EF496A22363D080083409D /* IAPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAPViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88ACA97D221BCECD002FE598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857F4B5271D7F4800E13E44 /* AdSupport.framework in Frameworks */,
+				88EA5EE1223A2BFB00EE8E27 /* iAd.framework in Frameworks */,
+				88269A5C23570333004B632E /* FBSDKCoreKit.framework in Frameworks */,
+				8831A4E42721537200B4A58E /* MysticalPowerSDK.framework in Frameworks */,
+				2080C2CD25ECC6A800EC0C44 /* AdjustSigSdk.framework in Frameworks */,
+				88269A582357030D004B632E /* FBSDKLoginKit.framework in Frameworks */,
+				88ACABD3221F8F5C002FE598 /* GameKit.framework in Frameworks */,
+				2080C2BB25E3A51F00EC0C44 /* AdjustSdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ACA995221BCED0002FE598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ACA9A0221BCED0002FE598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		883D7D1D2354A45C000EBB1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8863ABCD24234DEC0018202D /* GoogleService-Info.plist */,
+				88B22D9A23CD8D360026BAB8 /* LoginParaConfig.plist */,
+				883D7D1F2354A45C000EBB1A /* DAConf.plist */,
+				883D7D202354A45C000EBB1A /* TSPhoneNumAreaCodeEN.json */,
+				883D7D212354A45C000EBB1A /* TSPhoneNumAreaCodeZH.json */,
+				8863ABCF24236FCA0018202D /* CustomConfigurator.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		88ACA977221BCECD002FE598 = {
+			isa = PBXGroup;
+			children = (
+				88ACA982221BCECD002FE598 /* KingNetSDKTest */,
+				88ACA99B221BCED0002FE598 /* KingNetSDKTestTests */,
+				88ACA9A6221BCED0002FE598 /* KingNetSDKTestUITests */,
+				88ACA981221BCECD002FE598 /* Products */,
+				88ACA9D6221BDC28002FE598 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88ACA981221BCECD002FE598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88ACA980221BCECD002FE598 /* KingNetSDKTest.app */,
+				88ACA998221BCED0002FE598 /* KingNetSDKTestTests.xctest */,
+				88ACA9A3221BCED0002FE598 /* KingNetSDKTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88ACA982221BCECD002FE598 /* KingNetSDKTest */ = {
+			isa = PBXGroup;
+			children = (
+				8831A4E22721536600B4A58E /* MysticalPowerSDK.framework */,
+				2080C2CB25ECC69E00EC0C44 /* AdjustSigSdk.framework */,
+				2080C2B925E3A51600EC0C44 /* AdjustSdk.framework */,
+				8863AC972424B5320018202D /* KOSDKResource.bundle */,
+				88897C3F23851A5000F5BBD5 /* internationalization.bundle */,
+				88269A5A2357032F004B632E /* FBSDKCoreKit.framework */,
+				88269A56235702FE004B632E /* FBSDKLoginKit.framework */,
+				883D7D1D2354A45C000EBB1A /* Resources */,
+				88252218222D02E6002A6CDB /* KingNetSDKTest.entitlements */,
+				88ACA983221BCECD002FE598 /* AppDelegate.h */,
+				88ACA984221BCECD002FE598 /* AppDelegate.m */,
+				88EF496922363D080083409D /* IAPViewController.h */,
+				88EF496A22363D080083409D /* IAPViewController.m */,
+				882522802230BEF9002A6CDB /* KN_GameViewController.h */,
+				882522812230BEF9002A6CDB /* KN_GameViewController.m */,
+				882522822230BEF9002A6CDB /* KN_GameViewController.xib */,
+				88C544482775CBBF00CFC8DC /* Wdfalskjaakdska.h */,
+				88C544492775CBBF00CFC8DC /* Wdfalskjaakdska.m */,
+				88ACA98C221BCED0002FE598 /* Assets.xcassets */,
+				88ACA991221BCED0002FE598 /* Info.plist */,
+				88ACA992221BCED0002FE598 /* main.m */,
+			);
+			path = KingNetSDKTest;
+			sourceTree = "<group>";
+		};
+		88ACA99B221BCED0002FE598 /* KingNetSDKTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				88ACA99C221BCED0002FE598 /* KingNetSDKTestTests.m */,
+				88ACA99E221BCED0002FE598 /* Info.plist */,
+			);
+			path = KingNetSDKTestTests;
+			sourceTree = "<group>";
+		};
+		88ACA9A6221BCED0002FE598 /* KingNetSDKTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88ACA9A7221BCED0002FE598 /* KingNetSDKTestUITests.m */,
+				88ACA9A9221BCED0002FE598 /* Info.plist */,
+			);
+			path = KingNetSDKTestUITests;
+			sourceTree = "<group>";
+		};
+		88ACA9D6221BDC28002FE598 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8857F4B4271D7F4800E13E44 /* AdSupport.framework */,
+				88EA5EE0223A2BFB00EE8E27 /* iAd.framework */,
+				88ACABD2221F8F5C002FE598 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88ACA97F221BCECD002FE598 /* KingNetSDKTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88ACA9AC221BCED0002FE598 /* Build configuration list for PBXNativeTarget "KingNetSDKTest" */;
+			buildPhases = (
+				88ACA97C221BCECD002FE598 /* Sources */,
+				88ACA97D221BCECD002FE598 /* Frameworks */,
+				88ACA97E221BCECD002FE598 /* Resources */,
+				8827954D2331CE45005334A0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KingNetSDKTest;
+			productName = KingNetSDKTest;
+			productReference = 88ACA980221BCECD002FE598 /* KingNetSDKTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88ACA997221BCED0002FE598 /* KingNetSDKTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88ACA9AF221BCED0002FE598 /* Build configuration list for PBXNativeTarget "KingNetSDKTestTests" */;
+			buildPhases = (
+				88ACA994221BCED0002FE598 /* Sources */,
+				88ACA995221BCED0002FE598 /* Frameworks */,
+				88ACA996221BCED0002FE598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88ACA99A221BCED0002FE598 /* PBXTargetDependency */,
+			);
+			name = KingNetSDKTestTests;
+			productName = KingNetSDKTestTests;
+			productReference = 88ACA998221BCED0002FE598 /* KingNetSDKTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88ACA9A2221BCED0002FE598 /* KingNetSDKTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88ACA9B2221BCED0002FE598 /* Build configuration list for PBXNativeTarget "KingNetSDKTestUITests" */;
+			buildPhases = (
+				88ACA99F221BCED0002FE598 /* Sources */,
+				88ACA9A0221BCED0002FE598 /* Frameworks */,
+				88ACA9A1221BCED0002FE598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88ACA9A5221BCED0002FE598 /* PBXTargetDependency */,
+			);
+			name = KingNetSDKTestUITests;
+			productName = KingNetSDKTestUITests;
+			productReference = 88ACA9A3221BCED0002FE598 /* KingNetSDKTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88ACA978221BCECD002FE598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = niujf;
+				TargetAttributes = {
+					88ACA97F221BCECD002FE598 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					88ACA997221BCED0002FE598 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 88ACA97F221BCECD002FE598;
+					};
+					88ACA9A2221BCED0002FE598 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 88ACA97F221BCECD002FE598;
+					};
+				};
+			};
+			buildConfigurationList = 88ACA97B221BCECD002FE598 /* Build configuration list for PBXProject "KingNetSDKTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+				"zh-Hans",
+			);
+			mainGroup = 88ACA977221BCECD002FE598;
+			productRefGroup = 88ACA981221BCECD002FE598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88ACA97F221BCECD002FE598 /* KingNetSDKTest */,
+				88ACA997221BCED0002FE598 /* KingNetSDKTestTests */,
+				88ACA9A2221BCED0002FE598 /* KingNetSDKTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88ACA97E221BCECD002FE598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ACA98D221BCED0002FE598 /* Assets.xcassets in Resources */,
+				8863ABCE24234DEC0018202D /* GoogleService-Info.plist in Resources */,
+				882522842230BEFA002A6CDB /* KN_GameViewController.xib in Resources */,
+				8863AC982424B5340018202D /* KOSDKResource.bundle in Resources */,
+				88B22D9B23CD8D360026BAB8 /* LoginParaConfig.plist in Resources */,
+				883D7D232354A45C000EBB1A /* DAConf.plist in Resources */,
+				883D7D252354A45C000EBB1A /* TSPhoneNumAreaCodeZH.json in Resources */,
+				88897C4023851A5000F5BBD5 /* internationalization.bundle in Resources */,
+				8863ABD024236FCA0018202D /* CustomConfigurator.plist in Resources */,
+				883D7D242354A45C000EBB1A /* TSPhoneNumAreaCodeEN.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ACA996221BCED0002FE598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ACA9A1221BCED0002FE598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88ACA97C221BCECD002FE598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882522832230BEFA002A6CDB /* KN_GameViewController.m in Sources */,
+				88ACA993221BCED0002FE598 /* main.m in Sources */,
+				88ACA985221BCECD002FE598 /* AppDelegate.m in Sources */,
+				88C5444A2775CBBF00CFC8DC /* Wdfalskjaakdska.m in Sources */,
+				88EF496B22363D080083409D /* IAPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ACA994221BCED0002FE598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ACA99D221BCED0002FE598 /* KingNetSDKTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ACA99F221BCED0002FE598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ACA9A8221BCED0002FE598 /* KingNetSDKTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88ACA99A221BCED0002FE598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88ACA97F221BCECD002FE598 /* KingNetSDKTest */;
+			targetProxy = 88ACA999221BCED0002FE598 /* PBXContainerItemProxy */;
+		};
+		88ACA9A5221BCED0002FE598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88ACA97F221BCECD002FE598 /* KingNetSDKTest */;
+			targetProxy = 88ACA9A4221BCED0002FE598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		88ACA9AA221BCED0002FE598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/GodDescendEarchSDK.framework\"";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88ACA9AB221BCED0002FE598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/GodDescendEarchSDK.framework\"";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88ACA9AD221BCED0002FE598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KingNetSDKTest/KingNetSDKTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZR4J65G48C;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/KingNetSDKTest",
+				);
+				INFOPLIST_FILE = KingNetSDKTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.speos.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = speos_test;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88ACA9AE221BCED0002FE598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KingNetSDKTest/KingNetSDKTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZR4J65G48C;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/KingNetSDKTest",
+				);
+				INFOPLIST_FILE = KingNetSDKTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.speos.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = speos_test;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88ACA9B0221BCED0002FE598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KingNetSDKTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky.KingNetSDKTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingNetSDKTest.app/KingNetSDKTest";
+			};
+			name = Debug;
+		};
+		88ACA9B1221BCED0002FE598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KingNetSDKTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky.KingNetSDKTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingNetSDKTest.app/KingNetSDKTest";
+			};
+			name = Release;
+		};
+		88ACA9B3221BCED0002FE598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KingNetSDKTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky.KingNetSDKTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KingNetSDKTest;
+			};
+			name = Debug;
+		};
+		88ACA9B4221BCED0002FE598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KingNetSDKTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky.KingNetSDKTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KingNetSDKTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88ACA97B221BCECD002FE598 /* Build configuration list for PBXProject "KingNetSDKTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ACA9AA221BCED0002FE598 /* Debug */,
+				88ACA9AB221BCED0002FE598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88ACA9AC221BCED0002FE598 /* Build configuration list for PBXNativeTarget "KingNetSDKTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ACA9AD221BCED0002FE598 /* Debug */,
+				88ACA9AE221BCED0002FE598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88ACA9AF221BCED0002FE598 /* Build configuration list for PBXNativeTarget "KingNetSDKTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ACA9B0221BCED0002FE598 /* Debug */,
+				88ACA9B1221BCED0002FE598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88ACA9B2221BCED0002FE598 /* Build configuration list for PBXNativeTarget "KingNetSDKTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ACA9B3221BCED0002FE598 /* Debug */,
+				88ACA9B4221BCED0002FE598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88ACA978221BCECD002FE598 /* Project object */;
+}

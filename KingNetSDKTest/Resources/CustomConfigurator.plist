@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mobileAdLoad</key>
+	<true/>
+	<key>appID</key>
+	<string>300064</string>
+	<key>sdkVersion</key>
+	<string>2.0.0</string>
+	<key>currentLanguage</key>
+	<string>ko</string>
+	<key>requestLanguage</key>
+	<string>ko</string>
+	<key>horizontalScreen</key>
+	<true/>
+</dict>
+</plist>
